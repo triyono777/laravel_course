@@ -310,6 +310,10 @@ Catatan:
 
 ### 1. Menjalankan development server
 
+import database
+```bash
+php artisan migrate
+```
 Gunakan:
 
 ```bash
