@@ -198,11 +198,14 @@ Sebaiknya satu kelas menggunakan struktur yang seragam agar dosen lebih mudah me
 ### 3. Membuat proyek Laravel baru
 
 Jalankan:
-
+untuk laravel terbaru
 ```bash
 composer create-project laravel/laravel greenhouse-monitoring
 ```
-
+untuk php versi 8.2  dapat menggunakan laravel 12
+```bash
+composer create-project laravel/laravel:^12.0 nama-projek-anda
+```
 Penjelasan perintah:
 
 - `composer create-project`: membuat proyek baru dari package
